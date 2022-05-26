@@ -52,6 +52,44 @@ namespace RpgMvc.Controllers
             {
                 TempData["MensagemErro"] = ex.Message;
                 return RedirectToAction("Index");
+
+                 var content = new StringContent(JsonConvert.SerializeObject(u));
+                content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+                HttpResponseMessage response = await httpClient.PostAsync(uriBase + uriComplementar, content);
+                
+                 string Serialized = await response.Content.ReadAsStringAsync();
+
+                 if(response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    HttpContext.Session.SetString("SessionTokenUsuario", Serialized);
+                    TempData["Mensagem"] = string.Format("Bem-Vindo {0}!!!", u.Username);
+                    return RedirectToAction("Index", "Personagens");
+                }
+                else
+                {
+                    throw new System.Exception(Serialized);
+                }
+               
+
+
+            }
+
+        }
+
+        [HttpPost]
+
+        public async Task<ActionResult> AutenticarAsync(UsuarioViewModel u)
+        {
+            try{
+                //Proximo Código
+                 HttpClient httpClient = new HttpClient();
+                string uriComplementar = "Autenticar";
+            }
+
+             catch (System.Exception ex)
+            {
+                TempData["MensagemErro"] = ex.Message;
+                return RedirectToAction("Index");
             }
 
         }

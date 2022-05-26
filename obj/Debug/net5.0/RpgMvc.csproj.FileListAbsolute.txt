@@ -1,0 +1,8 @@
+C:\Desenvolvimento_Sistemas\Aula_ApiFinal\RpgMvc\obj\Debug\net5.0\RpgMvc.csproj.AssemblyReference.cache
+C:\Desenvolvimento_Sistemas\Aula_ApiFinal\RpgMvc\obj\Debug\net5.0\RpgMvc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento_Sistemas\Aula_ApiFinal\RpgMvc\obj\Debug\net5.0\RpgMvc.AssemblyInfoInputs.cache
+C:\Desenvolvimento_Sistemas\Aula_ApiFinal\RpgMvc\obj\Debug\net5.0\RpgMvc.AssemblyInfo.cs
+C:\Desenvolvimento_Sistemas\Aula_ApiFinal\RpgMvc\obj\Debug\net5.0\RpgMvc.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento_Sistemas\Aula_ApiFinal\RpgMvc\obj\Debug\net5.0\RpgMvc.MvcApplicationPartsAssemblyInfo.cache
+C:\Desenvolvimento_Sistemas\Aula_ApiFinal\RpgMvc\obj\Debug\net5.0\RpgMvc.RazorAssemblyInfo.cache
+C:\Desenvolvimento_Sistemas\Aula_ApiFinal\RpgMvc\obj\Debug\net5.0\RpgMvc.RazorAssemblyInfo.cs
