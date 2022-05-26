@@ -17,7 +17,7 @@ namespace RpgMvc.Controllers
         
     [HttpGet]
 
-        public  ActionResult Index()
+        public  ActionResult IndexLogin()
         {
             return View("CadastrarUsuario"); 
         }
